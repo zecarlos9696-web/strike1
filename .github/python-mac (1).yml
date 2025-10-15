@@ -35,7 +35,7 @@ jobs:
 
       - name: Build macOS App with PyInstaller
         run: |
-          pyinstaller --onefile --windowed --name Load_Balancing_Calculator --add-data "logo.png:." main.py
+          pyinstaller --onefile --windowed --name Load_Balancing_Calculator  main.py
 
       - name: Rename built app with version
         run: |
